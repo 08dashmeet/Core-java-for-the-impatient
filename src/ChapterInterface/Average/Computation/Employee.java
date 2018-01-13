@@ -1,6 +1,7 @@
 package ChapterInterface.Average.Computation;
 
- class Employee  implements Measurable{
+public class Employee  implements Measurable{
+
      double sal;
      public Employee(double sal){
          this.sal= sal;
@@ -10,8 +11,16 @@ package ChapterInterface.Average.Computation;
          return this.sal;
 
      }
-     void display(){
-         System.out.println("the sal is "+ this.sal);
-     }
+    /* double average(Measurable[] objects) {
+         for (Measurable obj : objects) {
+             sal = sal + obj.getMeasure();
+         }
+         if (objects.length > 0) {
+             return sal / objects.length;
+         } else {
+             return 0;
+         }
+
+     }*/
 
 }
