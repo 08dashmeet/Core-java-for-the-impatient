@@ -14,6 +14,13 @@ public class ATester {
         t1.start();
         t2.start();
 
+        t1.setPriority(1);  //setting min priority
+        t2.setPriority(10);  //setting max priority
+
+       System.out.println("The priority of  "+t1.getName()+"-: "+t1.getPriority());
+        System.out.println("The priority of  "+t2.getName()+"-: "+t2.getPriority());
+
+
         try{      t1.join();
                   t2.join();
            }
