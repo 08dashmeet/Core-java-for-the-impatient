@@ -1,4 +1,4 @@
-//Example of unchecked  Exception
+package ChapterException;//Example of unchecked  Exception
 
 public class ChapterException {
 

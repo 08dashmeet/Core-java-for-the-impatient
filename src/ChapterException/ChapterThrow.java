@@ -1,3 +1,4 @@
+package ChapterException;
 
 import java.util.*;
 public class ChapterThrow {

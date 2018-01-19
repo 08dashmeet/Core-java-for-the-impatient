@@ -1,4 +1,4 @@
-package Chapter.Throws;
+package ChapterException.Throws;
 
 public class Example {
 

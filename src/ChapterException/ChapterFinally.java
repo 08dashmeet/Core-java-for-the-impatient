@@ -1,3 +1,5 @@
+package ChapterException;
+
 public class ChapterFinally {
 
     public static void main(String args[]){
