@@ -1,6 +1,6 @@
 // join method
 
-package ChapterMultithreading3;
+package ChapterMultithreading.threadingfunctions;
 
 public class ATester {
     public static void main(String args[]) {

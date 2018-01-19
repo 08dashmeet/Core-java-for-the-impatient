@@ -1,4 +1,4 @@
-package ChapterMultithreading;
+package ChapterMultithreading.threadclass;
 
 public class Mythread2 extends Thread {
     public void run(){

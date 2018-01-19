@@ -1,4 +1,4 @@
-package ChapterMultithreading3;
+package ChapterMultithreading.threadingfunctions;
 
 public class A implements Runnable{
 
