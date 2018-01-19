@@ -1,6 +1,6 @@
 package ChapterInterface.Average.Computation;
 
 public interface Measurable {
-    double getMeasure();
+   abstract double getMeasure();
 
 }
