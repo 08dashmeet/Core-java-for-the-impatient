@@ -1,4 +1,4 @@
-package ChapterInheritance;
+package ChapterInheritance.point;
 
 public class Point {
   static  double x;
