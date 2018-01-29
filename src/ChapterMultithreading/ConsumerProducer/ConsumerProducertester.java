@@ -3,7 +3,8 @@ package ChapterMultithreading.ConsumerProducer;
 public class ConsumerProducertester {
 
     public static void main(String args[]){
-               ConsumerProducer obj = new ConsumerProducer();
+
+        ConsumerProducer obj = new ConsumerProducer();
 
         Thread t1 = new Thread(new Runnable()
         {
