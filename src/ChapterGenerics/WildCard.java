@@ -23,9 +23,6 @@ public class WildCard<T extends Number> {
             return false;
     }
 }
-
-
-
 class WildCardTester {
     public static void main(String args[]) {
 
@@ -40,11 +37,9 @@ class WildCardTester {
         System.out.println(ans2);
 
         if(g1.sameAvg(g2)){
-            System.out.println("The avg is same");
-        }
+            System.out.println("The avg is same");}
 
-        else{
-
+            else{
             System.out.println("The avg is not same");
         }
     }
